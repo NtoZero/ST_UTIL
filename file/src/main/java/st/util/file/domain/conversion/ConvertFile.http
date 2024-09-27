@@ -1,0 +1,9 @@
+### 파일 확장자 변경 API (/sample/files/v1/conversion/change-extension)
+POST http://localhost:8080/sample/files/v1/conversion/change-extension
+Content-Type: application/json
+
+{
+  "directoryPath" : "D:\\D_Dev\\3.D_Docker\\RedisClusterDocker",
+  "newExtension" : "conf",
+  "targetFileName" : ""
+}
